@@ -1,7 +1,8 @@
 version: 1.0.{build}
 environment:
-  MYGET_API_KEY:
+  NUGET_APIKEY:
     secure: YP/3KxC2ffsuHNaolPXj66JVGzSjON9FcR2S2OEzn9c6SV14oPzUh1ySyeT+G+aA
+  NUGET_SOURCE: https://www.myget.org/F/ghuntley/api/v2/package
 xamarin:
   email: ghuntley@ghuntley.com
   password:
