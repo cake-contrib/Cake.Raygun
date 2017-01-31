@@ -97,12 +97,12 @@ Action<string> SourceLink = (solutionFileName) =>
 ///////////////////////////////////////////////////////////////////////////////
 // SETUP / TEARDOWN
 ///////////////////////////////////////////////////////////////////////////////
-Setup(() =>
+Setup(context =>
 {
     Information("Building version {0} of Cake.Raygun.", semVersion);
 });
 
-Teardown(() =>
+Teardown(context =>
 {
     // Executed AFTER the last task.
 });
